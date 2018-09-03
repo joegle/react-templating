@@ -1,5 +1,17 @@
 #+TITLE: React Tests
 
+* Intro
+  This is a little experiment to use React to render static HTML. The React build process relies on a Babel config that has been simplified here.
+  
+** Running
+  To run the project install the npm dependencies and run the `start` command:
+  + Install  
+    : yarn install
+  + Run the main script
+    : yarn start
+  + Also, see the other scripts from the `package.json`
+    : yarn run [ babel-build | babel-run | react-build ]
+
 * Using Babel
   + Get dev deps
     : yarn add @babel/cli @babel/core @babel/preset-env --dev
