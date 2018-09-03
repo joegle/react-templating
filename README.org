@@ -4,7 +4,7 @@
   + Get dev deps
     : yarn add @babel/cli @babel/core @babel/preset-env --dev
   + Babel compile
-    : ./node_modules/.bin/babel --presets @babel/preset-env index.js -o out.js
+    : ./node_modules/.bin/babel --presets @babel/preset-env index.js -o build.js
   + Run export
-    : node out.js
+    : node build.js
     
