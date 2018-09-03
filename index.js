@@ -1,5 +1,7 @@
 require("@babel/register")({
-    presets : ["@babel/preset-env"]
+
+    // I think order matters here
+    presets : [ "@babel/preset-react", "@babel/preset-env"]
 });
 
 var process = require("process");

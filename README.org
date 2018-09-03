@@ -12,9 +12,14 @@
   + Install babel node 
     : yarn add @babel/node --dev
 
-  + Install @babel/register to load jsx and place in main JS file
+  + Install @babel/register to load jsx file (and others) and place the following in the main JS file
     : require("@babel/register");
 
   + Run script with babe-node and the es2015 preset
     : /node_modules/.bin/babel-node --presets @babel/preset-env index.js
     
+* React
+  + Install react and react-dom
+    : yarn add react react-dom
+  + Refer to Hello.jsx or the [[https://reactjs.org/tutorial/tutorial.html][React Tutorial]] for usage
+
