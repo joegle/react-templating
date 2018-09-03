@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-    "scripts": {
-        "start": "node index.js",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "babel-build": "babel --presets @babel/preset-env test.jsx -o build.js",
-        "babel-run": "babel-node --presets @babel/preset-env index.js"
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-build": "babel --presets @babel/preset-env test.jsx -o build.js",
+      "babel-run": "babel-node --presets @babel/preset-env index.js",
+      "react-build": "babel --presets @babel/preset-react,@babel/preset-env hello.jsx -o hello.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,10 @@
     "@babel/core": "^7.0.0",
     "@babel/node": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.0.0"
+  },
+  "dependencies": {
+    "react": "^16.4.2"
   }
 }
