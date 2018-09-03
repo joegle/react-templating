@@ -8,3 +8,13 @@
   + Run export
     : node build.js
     
+* Babel Node
+  + Install babel node 
+    : yarn add @babel/node --dev
+
+  + Install @babel/register to load jsx and place in main JS file
+    : require("@babel/register");
+
+  + Run script with babe-node and the es2015 preset
+    : /node_modules/.bin/babel-node --presets @babel/preset-env index.js
+    
